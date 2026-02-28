@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #ffb6c1, #ffe4e1);
+    min-height: 100vh;
+}
+
+header {
+    background: #ee719a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: rgb(255, 171, 171);
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    margin: 25px 0;
+    color: #ff0055;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 20px;
+}
+
+.service {
+    background: #fff0f5;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.service:hover {
+    border-color: #e91e63;
+}
+
+.service.selected {
+    background: #ffe4ec;
+    border-color: #e91e63;
+}
+
+.total {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form {
+    display: grid;
+    gap: 12px;
+}
+
+input, textarea, select {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background: #e91e63;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #c2185b;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    color: #555;
+} mark {
+    background-color: #c2185b;
+    color: #ffffff;
+    
+}

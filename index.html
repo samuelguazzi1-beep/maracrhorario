@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="samuel.ico" type="image/x-icon">
+    <title>Studio Ana Gomes</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+<header>
+<h1>Studio Ana Gomes</h1>
+    <p>Agende seu horário com facilidade</p>
+</header>
+
+<main class="container">
+
+    <h2>Escolha o Serviço</h2>
+
+    <div class="services">
+
+        <div class="service" data-name="Unha da Mão" data-price="20">
+            <h3>Mão</h3>
+            <p>R$ 20,00</p>
+            <hr>
+        </div>
+
+        <div class="service" data-name="Unha do Pé" data-price="30">
+            <h3>Pé</h3>
+            <p>R$ 30,00</p>
+            <hr>
+        </div>
+
+        <div class="service" data-name="Pé e Mão" data-price="40">
+            <h3>Pé e Mão</h3>
+            <p>R$ 40,00</p>
+            <hr>
+        </div>
+
+    </div>
+
+    <div class="total">
+        Total: R$ <span id="total">0</span>,00
+        <hr>
+    </div>
+    <h2>Nossos Trabalhos</h2>
+
+<div class="gallery">
+    <center><img src="unhadc3-250.png" alt="combo">
+    <img src="unhape1-130.jpg" alt="Unha ">
+    <img src="unham4-190.jpg" alt="unha"></center>
+  <marquee direction="right"><mark>E MUITO MAIS!</mark></marquee>
+  <hr>
+</div>
+
+    <h2>Dados do Cliente</h2>
+
+    <form id="form">
+
+        <label>Nome</label>
+        <input type="text" id="name" required>
+
+        <label>Telefone</label>
+        <input type="tel" id="phone" required>
+
+        <label>Data</label>
+        <input type="date" id="date" required>
+
+        <label>Horário</label>
+        <input type="time" id="time" required>
+
+        <label>Forma de Pagamento</label>
+        <select id="payment" required>
+            <option value="">Selecione</option>
+            <option value="Pix">Pix</option>
+            <option value="Dinheiro">Dinheiro</option>
+        </select>
+
+        <label>Observações</label>
+        <textarea id="obs"></textarea>
+
+        <button type="submit">Agendar no WhatsApp</button>
+
+    </form>
+
+</main>
+
+<footer>
+    📞 Contato: +55 32 99854-0652 <br>
+    © 2026 - Studio Ana Gomes
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
